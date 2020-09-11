@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "module": "esnext",
+        "resolveJsonModule": false
+    },
+    "exclude": ["__tests-utils__", "__tests__", "scripts.ts"],
+    "extends": "../../tsconfig.json"
+}
